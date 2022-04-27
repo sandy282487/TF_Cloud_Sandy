@@ -17,6 +17,6 @@ terraform {
 */
 provider "aws" {
   region  = var.aws_region
-  profile = "terra"
+ # profile = "terra"
 }
   # Adding Backend as S3 for Remote State Storage
